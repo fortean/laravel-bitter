@@ -1,0 +1,29 @@
+{
+    "name": "fortean/laravel-bitter",
+    "type": "library",
+    "description": "Laravel 4 Service Provider for Bitter, a PHP port of bitmapist (Python Redis analytics)",
+    "keywords": ["laravel", "redis", "bitmap", "analytics", "bitter", "bitmapist"],
+    "homepage": "https://github.com/fortean/laravel-bitter",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bruce Walter",
+            "email": "walter@fortean.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+    "require-dev": {
+        "illuminate/support": "~4",
+        "free-agent/bitter": "1.1.*"
+    },    
+    "require-all": true,
+    "autoload": {    
+        "psr-0": {
+            "Fortean\\Bitter\\": "src/"
+        }
+    },    
+    "minimum-stability": "dev"
+}
